@@ -77,3 +77,30 @@ h1{
     border-radius: 5px;
     padding: 5px;
 }
+
+.rdm-section {
+    padding: 30px;
+}
+.rdm-info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.rdm-title {
+    size: 36px;
+    color: #1f2937;
+    weight: 900;
+    text-align: center;
+}
+h2 {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.box{
+    width: 200px;
+}
+
+img {
+    max-width: 800px;
+}
