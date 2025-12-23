@@ -8,16 +8,17 @@ body {
 
 .container {
     display :flex;
+    justify-content: space-evenly;
     color: white;
     background: #1F2937;
-    padding: 10px 30px;
+    padding: 10px 50px;
 }
 
 .left, .right{
     margin: auto;
 }
 
-ul{
+ul {
     display: flex;
     list-style-type: none;
     gap: 30px;
@@ -33,4 +34,46 @@ ul{
     justify-content: center;
     size: 18px;
     padding: 20px;
+}
+
+.main{
+    background-color:#1f2937;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding: 50px;
+}
+
+.main-header {
+    size: 48px;
+    color: #f9faf8;
+}
+h1{
+    margin:0;
+}
+
+.main-img {
+    background-color: #e5e7eb;
+    border-color: black;
+    height: 150px;
+    width: 400px;
+}
+
+.main-secondary-text {
+    size: 18px;
+    color: #e5e7eb;
+}
+.main-text {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+}
+
+.button {
+    background-color: #3882f6;
+    text-align: center;
+    max-width: 100px;
+    border-radius: 5px;
+    padding: 5px;
 }
