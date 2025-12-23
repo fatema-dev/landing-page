@@ -79,7 +79,8 @@ h1{
 }
 
 .rdm-section {
-    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 150px;
 }
 .rdm-info {
     display: flex;
@@ -87,20 +88,45 @@ h1{
     gap: 50px;
 }
 .rdm-title {
-    size: 36px;
+    font-size: 28px;
     color: #1f2937;
-    weight: 900;
+    font-weight: 900;
     text-align: center;
 }
 h2 {
     margin: 0;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
 }
 
 .box{
-    width: 200px;
+    width: 150px;
 }
 
 img {
     max-width: 800px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text h2 {
+    font-size: 32px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#author {
+    font-weight: 800;
+    justify-self: end;
+}
+.wrapper {
+    width: 700px;
+    gap: 0;
 }
